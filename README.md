@@ -6,6 +6,22 @@ It includes:
 - ETL process design
 - SQL queries for analytics
 
+Northwind Operational Database - Overview
+
+The Northwind Operational Database is a transactional (OLTP) database designed to manage the daily operations of a wholesale business. It includes key entities such as Orders, Customers, Products, Suppliers, Employees, and Shippers.
+
+Key Features:
+	•	Orders and Order Details: Tracks sales transactions, linking products to customer orders.
+	•	Products and Categories: Organizes items into specific product categories.
+	•	Customers and Suppliers: Stores business partners’ details, including buyers and vendors.
+	•	Employees and Territories: Manages employee assignments and geographic regions.
+	•	Shippers: Identifies third-party logistics providers used for order deliveries.
+
+This normalized relational model ensures data consistency and efficiency in handling real-time business transactions. 🚀
+
+
+
+
 ## 📌 Current Progress
 ✅ Initial schema design completed  
 ✅ ERD created  
