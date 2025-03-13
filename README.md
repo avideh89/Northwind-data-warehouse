@@ -11,6 +11,7 @@ It includes:
 The Northwind Operational Database is a transactional (OLTP) database designed to manage the daily operations of a wholesale business. It includes key entities such as Orders, Customers, Products, Suppliers, Employees, and Shippers.
 
 Key Features:
+
 	•	Orders and Order Details: Tracks sales transactions, linking products to customer orders.
 	•	Products and Categories: Organizes items into specific product categories.
 	•	Customers and Suppliers: Stores business partners’ details, including buyers and vendors.
