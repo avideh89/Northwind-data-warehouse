@@ -8,7 +8,8 @@ It includes:
 
 # Northwind Operational Database - Overview
 
-https://github.com/avideh89/Northwind-data-warehouse/blob/main/2_Northwind%20operational%20diagram.png?raw=true
+![Northwind EDR](https://github.com/avideh89/Northwind-data-warehouse/blob/main/2_Northwind%20operational%20diagram.png?raw=true)
+
 
 The Northwind Operational Database is a transactional (OLTP) database designed to manage the daily operations of a wholesale business. It includes key entities such as Orders, Customers, Products, Suppliers, Employees, and Shippers.
 
