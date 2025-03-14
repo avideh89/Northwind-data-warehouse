@@ -23,21 +23,24 @@ Key Features:
 
 This normalized relational model ensures data consistency and efficiency in handling real-time business transactions. 🚀
 
+# Northwind Data Warehouse - Star Schema
 
+Why Star Schema?<br>
+	✅ Simplifies Queries: Reduces complex joins by centralizing transactional data into a single Fact Table.<br>
+	✅ Improves Performance: Queries run faster compared to a normalized OLTP model.<br>
+	✅ Optimized for BI Tools: Enables better reporting in Power BI, Tableau, and SQL-based analytics.<br>
 
+## Northwind Data Warehouse - Star Schema Overview
 
-## 📌 Current Progress
-✅ Initial schema design completed  
-✅ ERD created  
-🚀 Working on ETL pipeline  
-
-## 📁 Project Structure
-- **docs/** → Project documentation and ERD diagrams
-- **sql_scripts/** → SQL scripts for table creation and data transformations
-- **images/** → ERD and process flow diagrams
-- **notebooks/** → Jupyter notebooks for analytics
-
-## 🚀 Next Steps
-1. Finalize schema updates
-2. Implement ETL pipeline
-3. Create Power BI dashboards
+## Star Schema Structure
+	✔️Fact Table:
+		• FactOrders → The central fact table that stores sales transactions, 
+  		  including order details, revenue, and related keys for dimensions.
+	 
+	✔️Dimension Tables:
+		• DimCustomer → Contains customer information.
+		• DimProduct → Stores product details and links to product categories.
+		• DimGeography → Includes country, region, and territory details.
+		• DimSupplier → Stores supplier-related data.
+		• DimEmployee → Holds employee details and their roles in the sales process.
+		• DimDate → Provides a structured date dimension for time-based analysis.
