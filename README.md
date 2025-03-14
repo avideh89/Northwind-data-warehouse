@@ -44,3 +44,67 @@ Why Star Schema?<br>
 		• DimSupplier → Stores supplier-related data.
 		• DimEmployee → Holds employee details and their roles in the sales process.
 		• DimDate → Provides a structured date dimension for time-based analysis.
+
+
+## Decision: 
+Removal of ShipName and Shippers
+Initially, ShipName was considered as a separate dimension due to its presence in Orders. 
+However, after evaluating its impact:
+
+	• High cardinality made it inefficient for analytical queries.
+	• It did not significantly contribute to sales performance analysis.
+	• It was merged with DimShippers but later removed entirely from the schema.
+
+📌 If needed, shipping data can be added later in a separate table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
