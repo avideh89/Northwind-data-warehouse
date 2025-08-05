@@ -23,6 +23,40 @@ Key Features:
 
 This normalized relational model ensures data consistency and efficiency in handling real-time business transactions. 🚀
 
+## 🎯 Business Objectives
+
+This Business Intelligence project is based on the Northwind sample database and aims to answer the following business questions:
+
+> **1. Which products generate the highest revenue?**  
+> Identify the best-selling products to support inventory optimization and marketing strategy.
+
+> **2. How do monthly and yearly sales trends evolve over time?**  
+> Understand seasonality and overall performance for strategic planning and forecasting.
+
+> **3. Who are the most valuable customers based on total purchases?**  
+> Determine high-value customers to target retention and loyalty campaigns.
+
+> **4. Which geographical regions have the highest order volume?**  
+> Evaluate sales distribution across regions to support market expansion and targeting.
+
+> **5. Which employees have the highest sales performance?**  
+> Monitor employee-level sales performance for internal performance reviews and rewards.
+
+> **6. How does product category performance vary year over year?**  
+> Analyze revenue trends by category to guide product development and positioning.
+
+> **7. Which products are in high demand during each season?**  
+> Identify seasonal product trends to enhance stock management and promotional campaigns.
+
+> **8. What is the average order delivery time, and which shippers are most efficient?**  
+> Evaluate shipping efficiency to improve logistics and customer satisfaction.
+
+> **9. Which orders yield the highest profit margins?**  
+> Analyze profitability by order to support pricing and cost control strategies.
+
+> **10. How many repeat customers does the company have, and what do they buy most often?**  
+> Track customer retention and buying behavior to inform CRM and sales strategy.
+
 # Northwind Data Warehouse - Star Schema
 
 Why Star Schema?<br>
