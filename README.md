@@ -91,9 +91,7 @@ However, after evaluating its impact:
 
 📌 If needed, shipping data can be added later in a separate table.
 
-
-
-
+![Fact & Dimension Tables](https://github.com/avideh89/Northwind-data-warehouse/blob/main/Dim_Fact_Tables.svg?raw=true)
 
 
 
